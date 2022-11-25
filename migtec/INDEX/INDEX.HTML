@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIG TECH</title>
+    <link rel="stylesheet" href="../CSS/ESTILO.CSS">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+
+        <!-- Inicio do Menu -->
+        <div class="logo"><img id="lg" src="../IMGS/logo.png"></div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li><a href="" class="active">HOME</a></li>
+            <li><a href="">PRODUTOS</a>
+            <ul id="prod">
+                <li><a href="../INDEX/PROCESSADOR.HTML">PROCESSADORES</a></li>
+                <li></li><a href="../INDEX/MONITORES.HTML">MONITORES</a></li>
+                <li><a href="../INDEX/PLACA.HTML">PLACA-MÃE</a></li>
+            </ul>
+            </li>
+            <li><a href="../INDEX/CONTATO.HTML">CONTATO</a></li>
+            <li><a href="../INDEX/SOBRE.HTML">SOBRE NÓS</a></li>
+        </ul>
+
+        <button id="dark_mode" onclick="myFunctionc()">
+            <span class="material-symbols-outlined">
+                quiet_time_active
+                </span></button> 
+        
+        <button id="dark_mode" onclick="myFunctione()">
+            <span id="teste" class="material-symbols-outlined">
+                quiet_time
+                </span></button>   
+        <!-- Inicio do Menu -->
+
+    </header>
+
+    <nav>
+
+        <!-- Começo do Carrossel de Imagens -->
+<div class="pic-ctn">
+    <img src="../IMGS/c1_i9.png" alt="" class="pic">
+    <img src="../IMGS/m1_1.png" alt="" class="pic">
+    <img src="../IMGS/p1_1.png" alt="" class="pic">
+    </div>
+        <!-- Fim do Carrossel de Imagens -->
+
+
+
+    </nav>
+
+    <footer>
+   <!-- Inicio da Apresentação dos produtos -->
+   <div id="prods">
+    <div class="grid-container">
+        <div class="grid-item"><a href=""><img class="teste" src="../IMGS/i5.png">
+            <label class="descricao">Processadores de última geração, com uma rápida resposta <br> para pesquisas.</label>
+        </div></a>
+        <div class="grid-item"><a href=""><img class="teste1" src="../IMGS/m1_1.png">
+            <label class="descricao">Moniores com preços variados, com execelente resolução <br> sendo eles 4K.</label>
+        </div></a>
+        <div class="grid-item"><a href=""><img class="teste1" src="../IMGS/p1_1.png">
+            <label class="descricao">Placa-mãe para tipos especificos de PC. <br> Com ótimo desempenho</label>
+        </div></a>
+   <!-- Fim da Apresentação dos produtos -->
+    </footer>
+
+
+    
+    
+</body>
+<script src="../JS/main.js"></script>
+</html>

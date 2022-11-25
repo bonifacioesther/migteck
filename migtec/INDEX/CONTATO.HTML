@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="../CSS/CONTATO.CSS">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+
+        <!-- Inicio do Menu -->
+        <div class="logo"><img id="lg" src="../IMGS/logo.png"></div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li><a href="../INDEX/INDEX.HTML">HOME</a></li>
+            <li><a href="">PRODUTOS</a>
+            <ul id="prod">
+                <li><a href="../INDEX/PROCESSADOR.HTML">PROCESSADORES</a></li>
+                <li></li><a href="../INDEX/MONITORES.HTML">MONITORES</a></li>
+                <li><a href="../INDEX/PLACA.HTML">PLACA-MÃE</a></li>
+            </ul>
+            </li>
+            <li><a href="../INDEX/CONTATO.HTML"  class="active">CONTATO</a></li>
+            <li><a href="../INDEX/SOBRE.HTML">SOBRE NÓS</a></li>
+        </ul>
+
+        <button id="dark_mode" onclick="myFunctionc()">
+            <span class="material-symbols-outlined">
+                quiet_time_active
+                </span></button> 
+        
+        <button id="dark_mode" onclick="myFunctione()">
+            <span id="teste" class="material-symbols-outlined">
+                quiet_time
+                </span></button>   
+        <!-- Inicio do Menu -->
+
+</header>
+
+<main>
+    
+        <fieldset>
+          <legend>Página de Contato</legend>
+          <form action="#page.php" method="post">
+            <div>
+              <label class="cor" for="phone">Celular:</label>
+              <input type="text" id="phone" name="phone" placeholder="(48) 99999-9999" maxlength="15" required="required" cols="50"/>
+            </div>
+  
+            <div>
+              <label class="cor" for="email">Email:</label><br />
+              <input type="email" id="email" name="email"> <br/><br/>
+            </div>
+            <br />
+  
+            <div>
+              <label class="cor" for="textArea">Assunto:</label>
+              <textarea name="textArea" id="textArea" cols="50" rows="6"></textarea>
+              <br />
+              <button type="submit" class="btn">Enviar</button>
+            </div>
+          </form>
+        </fieldset>
+      </div>
+  </main>
+
+  
+        
+        
+    <script src="../JS/contato.js"></script>
+    </body>
